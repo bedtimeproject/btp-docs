@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #625ace;
+  padding: 10px;
+}
+
+header div {
+  font-size: x-large;
+  margin: 10px;
+  color: white;
+}
+
+main {
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+main section {
+  background-color: lightgray;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  font-size: large;
+}
+
+.ColorsTable td:not(:first-of-type),
+.ColorsTable th:not(:first-of-type) {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ColorsTable td:first-of-type,
+.ColorsTable th:first-of-type {
+  width: 30px;
+  border-radius: 30px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.ColorsTable tr:first-of-type th:first-of-type {
+  border: none;
+}
+
+.FontTable tr > td,
+.FontTable tr > th {
+  padding-bottom: 10px;
+}
+
+.FooterContainer {
+  background-color: #381223;
+  overflow: hidden;
+  min-height: 58px;
+  color: white;
+}
+
+.CopyrightContainer {
+  text-align: center;
+  transform: rotate(-4deg);
+  margin: 20px;
+}
