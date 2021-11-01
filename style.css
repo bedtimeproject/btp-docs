@@ -14,14 +14,33 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #625ace;
   padding: 10px;
 }
 
-header div {
+header > div {
+  display: flex;
+}
+
+header div div {
   font-size: x-large;
   margin: 10px;
   color: white;
+}
+
+header a {
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+header a:focus,
+header a:hover {
+  background-color: #cecece;
 }
 
 main {
